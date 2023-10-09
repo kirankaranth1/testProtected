@@ -1,0 +1,89 @@
+name: INeedDependentProjectsPy
+description: ''
+version: '1'
+author: kiranadmin@prophecy.io
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: ineeddependentprojectspy
+  parentArtefactID: newteamtestpppp
+  buildSystem: wheel
+  author: null
+  createdAt: '2023-09-01 10:10:57'
+pipelines:
+  pipelines/p111:
+    name: p111
+    description: ''
+    author: kiranadmin@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-10-09 12:31:15'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: '3.10'
+  gemLibsVersion: 1.3.2.0
+  gems: {}
+functions:
+  author: null
+  createdAt: '2023-09-01 10:10:57'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+subgraphs: {}
+sqlModels: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies: '[]'
+projectDependencies:
+  '973':
+    projectUID: 973
+    projectName: useMeAsDependencyPy
+    repositoryPath: gitUri=http://gitserver:3000/yiKoVz9l_team_147/bPXV2idY_project_973.git&subPath=
+    version: useMeAsDependencyPy/2
+    isDefault: false
+    author: null
+    createdAt: '2023-09-01 10:15:10'
+  '979':
+    projectUID: 979
+    projectName: ProphecySparkBasicsPython
+    repositoryPath: gitUri=http://gitserver:3000/E2hLY3lP_team_419/E2hLY3lP_project_979.git&subPath=
+    version: 0.0.2
+    isDefault: true
+    author: null
+    createdAt: '2023-09-05 05:00:25'
+  '980':
+    projectUID: 980
+    projectName: ProphecyWarehousePython
+    repositoryPath: gitUri=http://gitserver:3000/E2hLY3lP_team_419/E2hLY3lP_project_980.git&subPath=
+    version: 0.0.1
+    isDefault: true
+    author: null
+    createdAt: '2023-09-05 05:00:25'
+  '988':
+    projectUID: 988
+    projectName: ProphecyWarehousePython
+    repositoryPath: gitUri=http://gitserver:3000/E2hLY3lP_team_419/A1yfWi48_project_988.git&subPath=
+    version: 0.0.2
+    isDefault: true
+    author: null
+    createdAt: '2023-10-09 11:39:36'
+  '987':
+    projectUID: 987
+    projectName: ProphecySparkBasicsPython
+    repositoryPath: gitUri=http://gitserver:3000/E2hLY3lP_team_419/A1yfWi48_project_987.git&subPath=
+    version: 0.0.4
+    isDefault: true
+    author: null
+    createdAt: '2023-10-09 11:39:36'
+pipelineConfigurations: {}
