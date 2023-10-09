@@ -46,30 +46,6 @@ sqlUnreferencedSources: {}
 sqlPipeline: null
 dependencies: '[]'
 projectDependencies:
-  '973':
-    projectUID: 973
-    projectName: useMeAsDependencyPy
-    repositoryPath: gitUri=http://gitserver:3000/yiKoVz9l_team_147/bPXV2idY_project_973.git&subPath=
-    version: useMeAsDependencyPy/2
-    isDefault: false
-    author: null
-    createdAt: '2023-09-01 10:15:10'
-  '979':
-    projectUID: 979
-    projectName: ProphecySparkBasicsPython
-    repositoryPath: gitUri=http://gitserver:3000/E2hLY3lP_team_419/E2hLY3lP_project_979.git&subPath=
-    version: 0.0.2
-    isDefault: true
-    author: null
-    createdAt: '2023-09-05 05:00:25'
-  '980':
-    projectUID: 980
-    projectName: ProphecyWarehousePython
-    repositoryPath: gitUri=http://gitserver:3000/E2hLY3lP_team_419/E2hLY3lP_project_980.git&subPath=
-    version: 0.0.1
-    isDefault: true
-    author: null
-    createdAt: '2023-09-05 05:00:25'
   '988':
     projectUID: 988
     projectName: ProphecyWarehousePython
@@ -77,7 +53,7 @@ projectDependencies:
     version: 0.0.2
     isDefault: true
     author: null
-    createdAt: '2023-10-09 11:39:36'
+    createdAt: '2023-10-09 12:36:07'
   '987':
     projectUID: 987
     projectName: ProphecySparkBasicsPython
@@ -85,5 +61,5 @@ projectDependencies:
     version: 0.0.4
     isDefault: true
     author: null
-    createdAt: '2023-10-09 11:39:36'
+    createdAt: '2023-10-09 12:36:07'
 pipelineConfigurations: {}
