@@ -23,30 +23,6 @@ functions:
   airflowFunctions: {}
 subgraphs: {}
 sqlModels:
-  .prophecy/metadata/sqlmodels/m1:
-    name: m1
-    schema: null
-    description: null
-    author: kiranadmin@prophecy.io
-    files:
-    - models/m1.sql
-    - .prophecy/ide/models/m1.json
-    sqlDependencies:
-      models: []
-      datasets: []
-    createdAt: '2023-12-22 08:55:34'
-  .prophecy/metadata/sqlmodels/m2:
-    name: m2
-    schema: null
-    description: null
-    author: kiranadmin@prophecy.io
-    files:
-    - models/m2.sql
-    - .prophecy/ide/models/m2.json
-    sqlDependencies:
-      models: []
-      datasets: []
-    createdAt: '2023-12-22 09:18:45'
   .prophecy/metadata/sqlmodels/m3:
     name: m3
     schema: null
@@ -59,6 +35,18 @@ sqlModels:
       models: []
       datasets: []
     createdAt: '2023-12-22 11:01:52'
+  .prophecy/metadata/sqlmodels/m5:
+    name: m5
+    schema: null
+    description: null
+    author: kiranadmin@prophecy.io
+    files:
+    - models/m5.sql
+    - .prophecy/ide/models/m5.json
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-12-22 11:59:20'
   .prophecy/metadata/sqlmodels/m4:
     name: m4
     schema: null
@@ -71,6 +59,30 @@ sqlModels:
       models: []
       datasets: []
     createdAt: '2023-12-22 11:22:08'
+  .prophecy/metadata/sqlmodels/m2:
+    name: m2
+    schema: null
+    description: null
+    author: kiranadmin@prophecy.io
+    files:
+    - models/m2.sql
+    - .prophecy/ide/models/m2.json
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-12-22 09:18:45'
+  .prophecy/metadata/sqlmodels/m1:
+    name: m1
+    schema: null
+    description: null
+    author: kiranadmin@prophecy.io
+    files:
+    - models/m1.sql
+    - .prophecy/ide/models/m1.json
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-12-22 08:55:34'
 sqlMacros: {}
 sqlSeeds: {}
 sqlSources: {}

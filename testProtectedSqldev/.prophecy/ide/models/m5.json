@@ -1,0 +1,48 @@
+{
+  "id" : "m5",
+  "metainfo" : {
+    "label" : "m5",
+    "autoLayout" : false,
+    "staleState" : "none",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "m5##D3uYgSoI" : {
+      "id" : "m5##D3uYgSoI",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "m5",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "TE1sdIYR",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "xakpJ4GV",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ ],
+  "component" : "Model"
+}
