@@ -1,0 +1,48 @@
+{
+  "id" : "m4",
+  "metainfo" : {
+    "label" : "m4",
+    "autoLayout" : false,
+    "staleState" : "none",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "m4##VSY2NMJy" : {
+      "id" : "m4##VSY2NMJy",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "m4",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "jaF45gRW",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "Jb32olBg",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ ],
+  "component" : "Model"
+}
