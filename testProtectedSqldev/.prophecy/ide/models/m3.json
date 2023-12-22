@@ -1,0 +1,48 @@
+{
+  "id" : "m3",
+  "metainfo" : {
+    "label" : "m3",
+    "autoLayout" : false,
+    "staleState" : "none",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "m3##GSw67kcQ" : {
+      "id" : "m3##GSw67kcQ",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "m3",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "",
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "Hf9LfRBm",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "vVpPAMLm",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ ],
+  "component" : "Model"
+}

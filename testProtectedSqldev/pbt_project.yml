@@ -47,6 +47,18 @@ sqlModels:
       models: []
       datasets: []
     createdAt: '2023-12-22 09:18:45'
+  .prophecy/metadata/sqlmodels/m3:
+    name: m3
+    schema: null
+    description: null
+    author: kiranadmin@prophecy.io
+    files:
+    - models/m3.sql
+    - .prophecy/ide/models/m3.json
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-12-22 11:01:52'
 sqlMacros: {}
 sqlSeeds: {}
 sqlSources: {}
